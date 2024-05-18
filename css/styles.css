@@ -208,6 +208,7 @@ body.dark{
     height: 9px;
     background-color: #888;
     border-radius: var(--border-radius);
+    overflow: hidden;
     
 }
 
@@ -217,7 +218,7 @@ body.dark{
     left: -175px; 
     background-color: var(--primary-color);
     transition: var(--transition);
-    animation: skills__bar-fill 3s ease-in-out forwards;
+    animation: skills__bar-fill 2s ease-in-out forwards;
 }
 
 .skills__bar--10::after{
